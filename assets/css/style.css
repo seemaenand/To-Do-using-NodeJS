@@ -1,0 +1,168 @@
+/* initialising the css for the entire page */
+
+
+body{
+    font-family:  sans-serif;
+    margin: 0;
+    background-position: center;
+    width: 100%;
+    height: 50vh;
+    background-size: cover;
+}
+
+/* the entire box */
+.container{
+    width: 60%;
+    border:2px solid grey;
+    background-color: white;
+    padding: 0;
+    
+}
+
+/* the heading */
+.container .heading{
+    text-align: center;
+    color: navy;
+    font-weight:900;
+    border-bottom: 2px solid grey;
+}
+
+.card{
+    padding: 7px;
+    border: none;
+    background-color: white;
+    border-bottom: 1px solid grey;
+    /* display: inline-flex; */
+}
+.card .form-control{
+    border: none;
+    background-color: white;
+    opacity: 0.6;
+    padding: 0;
+    
+}
+.category-card{
+    display: inline-block;
+    width: 50%;
+    position: relative;
+    margin-left:5px;
+    border-right:1px solid grey;
+}
+.category-card .custom-select{
+    border: none;
+    padding:0;
+    margin-left:3px;
+    width: 95%;
+    opacity: 0.7;
+}
+.due-date-card{
+    display: inline-block;
+    width: 48%;
+    left:2%;
+    position: relative;
+}
+.due-date-card input{
+    border: none;
+    margin-right: 20px;
+    padding:0;
+    width: 95%;
+    opacity: 0.6;
+
+}
+.bottom-line{
+    border-bottom: 1px solid grey;
+}
+
+/* the action buttons */
+.action-button-container{
+    margin: 20px 0 15px 0;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+
+/* add task button */
+.action-add-button button{
+    display: inline-block;
+    left:45%;
+    position: relative;
+}
+
+/* delete task button */
+.action-delete-button button{
+    display: inline-block;
+    right:15%;
+    position: relative;
+}
+
+/* the to do list */
+.task-card-list{
+    display: inline-flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: azure;    
+    border-top: 1px solid grey;
+}
+
+.tick-box-check{
+    width: 8%;
+    margin-top: 20px;
+    margin-left: 5px;
+}
+
+input.select-task{
+    height: 20px;
+    width: 25px;
+}
+
+.tag-box{
+    /* margin-top: 20px; */
+    text-align: center;
+    border-radius: 5px;
+    margin: auto;
+    width: 120px;
+    /* padding:10px */
+}
+
+/* the category list */
+.Personal{
+    margin-top: 20px;
+    background-color: blueviolet;
+    padding:7%;
+    border-radius: 10px;
+}
+.Professional{
+    margin-top: 20px;
+    background-color: Aqua;
+    padding:5%;
+    border-radius: 10px;
+}
+.Social{
+    margin-top: 20px;
+    background-color: orange;
+    padding:5%;
+    border-radius: 10px;
+}
+.Other{
+    margin-top: 20px;
+    background-color: lightcoral;
+    padding:5%;
+    border-radius: 10px;
+}
+.Academics{
+    margin-top: 20px;
+    background-color: lightgreen;
+    padding:5%;
+    border-radius: 10px;
+}
+.task-body{
+    width: 60%;
+    position: relative;
+    margin-top: 5px;
+    margin-bottom: 2px;
+    padding-bottom: 0;
+}
